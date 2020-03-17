@@ -1,0 +1,245 @@
+2020-03-17 14:06:34.593  INFO 2422 --- [main] com.example.demo.DemoApplication         : Starting DemoApplication on sslnoiMac-2.local with PID 2422 (/Users/ssl/Downloads/SpringBoot_App/target/classes started by ssl in /Users/ssl/Downloads/SpringBoot_App)
+2020-03-17 14:06:34.597  INFO 2422 --- [main] com.example.demo.DemoApplication         : No active profile set, falling back to default profiles: default
+2020-03-17 14:06:37.138  INFO 2422 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2020-03-17 14:06:37.153  INFO 2422 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-03-17 14:06:37.153  INFO 2422 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.31]
+2020-03-17 14:06:37.285  INFO 2422 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-03-17 14:06:37.285 DEBUG 2422 --- [main] o.s.web.context.ContextLoader            : Published root WebApplicationContext as ServletContext attribute with name [org.springframework.web.context.WebApplicationContext.ROOT]
+2020-03-17 14:06:37.285  INFO 2422 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 2528 ms
+2020-03-17 14:06:37.616  INFO 2422 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-03-17 14:06:37.626 DEBUG 2422 --- [main] s.w.s.m.m.a.RequestMappingHandlerAdapter : ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2020-03-17 14:06:37.730 DEBUG 2422 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : 3 mappings in 'requestMappingHandlerMapping'
+2020-03-17 14:06:37.763 DEBUG 2422 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+2020-03-17 14:06:37.775 DEBUG 2422 --- [main] .m.m.a.ExceptionHandlerExceptionResolver : ControllerAdvice beans: 0 @ExceptionHandler, 1 ResponseBodyAdvice
+2020-03-17 14:06:37.833  WARN 2422 --- [main] ion$DefaultTemplateResolverConfiguration : Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+2020-03-17 14:06:37.977  INFO 2422 --- [main] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2020-03-17 14:06:37.989  INFO 2422 --- [main] ConditionEvaluationReportLoggingListener : 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2020-03-17 14:06:37.991 ERROR 2422 --- [main] o.s.b.d.LoggingFailureAnalysisReporter   : 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Web server failed to start. Port 8080 was already in use.
+
+Action:
+
+Identify and stop the process that's listening on port 8080 or configure this application to listen on another port.
+
+2020-03-17 14:06:37.994  INFO 2422 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2020-03-17 14:08:09.128  INFO 2427 --- [main] com.example.demo.DemoApplication         : Starting DemoApplication on sslnoiMac-2.local with PID 2427 (/Users/ssl/Downloads/SpringBoot_App/target/classes started by ssl in /Users/ssl/Downloads/SpringBoot_App)
+2020-03-17 14:08:09.148  INFO 2427 --- [main] com.example.demo.DemoApplication         : No active profile set, falling back to default profiles: default
+2020-03-17 14:08:11.661  INFO 2427 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2020-03-17 14:08:11.675  INFO 2427 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-03-17 14:08:11.675  INFO 2427 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.31]
+2020-03-17 14:08:11.808  INFO 2427 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-03-17 14:08:11.809 DEBUG 2427 --- [main] o.s.web.context.ContextLoader            : Published root WebApplicationContext as ServletContext attribute with name [org.springframework.web.context.WebApplicationContext.ROOT]
+2020-03-17 14:08:11.809  INFO 2427 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 2401 ms
+2020-03-17 14:08:12.120  INFO 2427 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-03-17 14:08:12.134 DEBUG 2427 --- [main] s.w.s.m.m.a.RequestMappingHandlerAdapter : ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2020-03-17 14:08:12.230 DEBUG 2427 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : 3 mappings in 'requestMappingHandlerMapping'
+2020-03-17 14:08:12.267 DEBUG 2427 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+2020-03-17 14:08:12.278 DEBUG 2427 --- [main] .m.m.a.ExceptionHandlerExceptionResolver : ControllerAdvice beans: 0 @ExceptionHandler, 1 ResponseBodyAdvice
+2020-03-17 14:08:12.334  WARN 2427 --- [main] ion$DefaultTemplateResolverConfiguration : Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+2020-03-17 14:08:12.460  INFO 2427 --- [main] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2020-03-17 14:08:12.472  INFO 2427 --- [main] ConditionEvaluationReportLoggingListener : 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2020-03-17 14:08:12.474 ERROR 2427 --- [main] o.s.b.d.LoggingFailureAnalysisReporter   : 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Web server failed to start. Port 8080 was already in use.
+
+Action:
+
+Identify and stop the process that's listening on port 8080 or configure this application to listen on another port.
+
+2020-03-17 14:08:12.478  INFO 2427 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2020-03-17 14:14:37.833  INFO 2471 --- [main] com.example.demo.DemoApplication         : Starting DemoApplication on sslnoiMac-2.local with PID 2471 (/Users/ssl/Downloads/SpringBoot_App/target/classes started by ssl in /Users/ssl/Downloads/SpringBoot_App)
+2020-03-17 14:14:37.851  INFO 2471 --- [main] com.example.demo.DemoApplication         : No active profile set, falling back to default profiles: default
+2020-03-17 14:14:40.256  INFO 2471 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2020-03-17 14:14:40.270  INFO 2471 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-03-17 14:14:40.271  INFO 2471 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.31]
+2020-03-17 14:14:40.403  INFO 2471 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-03-17 14:14:40.403 DEBUG 2471 --- [main] o.s.web.context.ContextLoader            : Published root WebApplicationContext as ServletContext attribute with name [org.springframework.web.context.WebApplicationContext.ROOT]
+2020-03-17 14:14:40.403  INFO 2471 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 2411 ms
+2020-03-17 14:14:40.689  INFO 2471 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-03-17 14:14:40.700 DEBUG 2471 --- [main] s.w.s.m.m.a.RequestMappingHandlerAdapter : ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2020-03-17 14:14:40.794 DEBUG 2471 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : 3 mappings in 'requestMappingHandlerMapping'
+2020-03-17 14:14:40.826 DEBUG 2471 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+2020-03-17 14:14:40.835 DEBUG 2471 --- [main] .m.m.a.ExceptionHandlerExceptionResolver : ControllerAdvice beans: 0 @ExceptionHandler, 1 ResponseBodyAdvice
+2020-03-17 14:14:40.894  WARN 2471 --- [main] ion$DefaultTemplateResolverConfiguration : Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+2020-03-17 14:14:41.058  INFO 2471 --- [main] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2020-03-17 14:14:41.072  INFO 2471 --- [main] ConditionEvaluationReportLoggingListener : 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2020-03-17 14:14:41.075 ERROR 2471 --- [main] o.s.b.d.LoggingFailureAnalysisReporter   : 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Web server failed to start. Port 8080 was already in use.
+
+Action:
+
+Identify and stop the process that's listening on port 8080 or configure this application to listen on another port.
+
+2020-03-17 14:14:41.078  INFO 2471 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2020-03-17 14:15:16.177  INFO 2475 --- [main] com.example.demo.DemoApplication         : Starting DemoApplication on sslnoiMac-2.local with PID 2475 (/Users/ssl/Downloads/SpringBoot_App/target/classes started by ssl in /Users/ssl/Downloads/SpringBoot_App)
+2020-03-17 14:15:16.186  INFO 2475 --- [main] com.example.demo.DemoApplication         : No active profile set, falling back to default profiles: default
+2020-03-17 14:15:18.367  INFO 2475 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2020-03-17 14:15:18.387  INFO 2475 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-03-17 14:15:18.388  INFO 2475 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.31]
+2020-03-17 14:15:18.537  INFO 2475 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-03-17 14:15:18.538 DEBUG 2475 --- [main] o.s.web.context.ContextLoader            : Published root WebApplicationContext as ServletContext attribute with name [org.springframework.web.context.WebApplicationContext.ROOT]
+2020-03-17 14:15:18.538  INFO 2475 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 2167 ms
+2020-03-17 14:15:18.835  INFO 2475 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-03-17 14:15:18.847 DEBUG 2475 --- [main] s.w.s.m.m.a.RequestMappingHandlerAdapter : ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2020-03-17 14:15:18.926 DEBUG 2475 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : 3 mappings in 'requestMappingHandlerMapping'
+2020-03-17 14:15:18.963 DEBUG 2475 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+2020-03-17 14:15:18.974 DEBUG 2475 --- [main] .m.m.a.ExceptionHandlerExceptionResolver : ControllerAdvice beans: 0 @ExceptionHandler, 1 ResponseBodyAdvice
+2020-03-17 14:15:19.007  WARN 2475 --- [main] ion$DefaultTemplateResolverConfiguration : Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+2020-03-17 14:15:19.119  INFO 2475 --- [main] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2020-03-17 14:15:19.161  INFO 2475 --- [main] ConditionEvaluationReportLoggingListener : 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2020-03-17 14:15:19.163 ERROR 2475 --- [main] o.s.b.d.LoggingFailureAnalysisReporter   : 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Web server failed to start. Port 8080 was already in use.
+
+Action:
+
+Identify and stop the process that's listening on port 8080 or configure this application to listen on another port.
+
+2020-03-17 14:15:19.167  INFO 2475 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2020-03-17 14:16:56.224  INFO 2498 --- [main] com.example.demo.DemoApplication         : Starting DemoApplication on sslnoiMac-2.local with PID 2498 (/Users/ssl/Downloads/SpringBoot_App/target/classes started by ssl in /Users/ssl/Downloads/SpringBoot_App)
+2020-03-17 14:16:56.228  INFO 2498 --- [main] com.example.demo.DemoApplication         : No active profile set, falling back to default profiles: default
+2020-03-17 14:16:58.300  INFO 2498 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2020-03-17 14:16:58.319  INFO 2498 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-03-17 14:16:58.320  INFO 2498 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.31]
+2020-03-17 14:16:58.445  INFO 2498 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-03-17 14:16:58.446 DEBUG 2498 --- [main] o.s.web.context.ContextLoader            : Published root WebApplicationContext as ServletContext attribute with name [org.springframework.web.context.WebApplicationContext.ROOT]
+2020-03-17 14:16:58.446  INFO 2498 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 2048 ms
+2020-03-17 14:16:58.779  INFO 2498 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-03-17 14:16:58.791 DEBUG 2498 --- [main] s.w.s.m.m.a.RequestMappingHandlerAdapter : ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2020-03-17 14:16:58.880 DEBUG 2498 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : 3 mappings in 'requestMappingHandlerMapping'
+2020-03-17 14:16:58.917 DEBUG 2498 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+2020-03-17 14:16:58.930 DEBUG 2498 --- [main] .m.m.a.ExceptionHandlerExceptionResolver : ControllerAdvice beans: 0 @ExceptionHandler, 1 ResponseBodyAdvice
+2020-03-17 14:16:58.962  WARN 2498 --- [main] ion$DefaultTemplateResolverConfiguration : Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+2020-03-17 14:16:59.105  INFO 2498 --- [main] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2020-03-17 14:16:59.133  INFO 2498 --- [main] ConditionEvaluationReportLoggingListener : 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2020-03-17 14:16:59.136 ERROR 2498 --- [main] o.s.b.d.LoggingFailureAnalysisReporter   : 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Web server failed to start. Port 8080 was already in use.
+
+Action:
+
+Identify and stop the process that's listening on port 8080 or configure this application to listen on another port.
+
+2020-03-17 14:16:59.142  INFO 2498 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2020-03-17 14:22:19.801  INFO 2540 --- [main] com.example.demo.DemoApplication         : Starting DemoApplication on sslnoiMac-2.local with PID 2540 (/Users/ssl/Downloads/SpringBoot_App/target/classes started by ssl in /Users/ssl/Downloads/SpringBoot_App)
+2020-03-17 14:22:19.810  INFO 2540 --- [main] com.example.demo.DemoApplication         : No active profile set, falling back to default profiles: default
+2020-03-17 14:22:21.641  INFO 2540 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2020-03-17 14:22:21.659  INFO 2540 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-03-17 14:22:21.660  INFO 2540 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.31]
+2020-03-17 14:22:21.777  INFO 2540 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-03-17 14:22:21.778 DEBUG 2540 --- [main] o.s.web.context.ContextLoader            : Published root WebApplicationContext as ServletContext attribute with name [org.springframework.web.context.WebApplicationContext.ROOT]
+2020-03-17 14:22:21.778  INFO 2540 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1802 ms
+2020-03-17 14:22:22.064  INFO 2540 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-03-17 14:22:22.077 DEBUG 2540 --- [main] s.w.s.m.m.a.RequestMappingHandlerAdapter : ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2020-03-17 14:22:22.167 DEBUG 2540 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : 3 mappings in 'requestMappingHandlerMapping'
+2020-03-17 14:22:22.203 DEBUG 2540 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+2020-03-17 14:22:22.219 DEBUG 2540 --- [main] .m.m.a.ExceptionHandlerExceptionResolver : ControllerAdvice beans: 0 @ExceptionHandler, 1 ResponseBodyAdvice
+2020-03-17 14:22:22.253  WARN 2540 --- [main] ion$DefaultTemplateResolverConfiguration : Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+2020-03-17 14:22:22.411  INFO 2540 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2020-03-17 14:22:22.419  INFO 2540 --- [main] com.example.demo.DemoApplication         : Started DemoApplication in 3.628 seconds (JVM running for 4.865)
+2020-03-17 14:23:21.561  INFO 2540 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-03-17 14:23:21.562  INFO 2540 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2020-03-17 14:23:21.562 DEBUG 2540 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Detected StandardServletMultipartResolver
+2020-03-17 14:23:21.608 DEBUG 2540 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : enableLoggingRequestDetails='false': request parameters and headers will be masked to prevent unsafe logging of potentially sensitive data
+2020-03-17 14:23:21.608  INFO 2540 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 46 ms
+2020-03-17 14:23:21.634 DEBUG 2540 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : GET "/api/hello", parameters={}
+2020-03-17 14:23:21.642 DEBUG 2540 --- [http-nio-8080-exec-1] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.example.demo.controller.Controller#hello()
+2020-03-17 14:23:21.706 DEBUG 2540 --- [http-nio-8080-exec-1] m.m.a.RequestResponseBodyMethodProcessor : Using 'text/html', given [text/html, application/xhtml+xml, image/webp, image/apng, application/xml;q=0.9, application/signed-exchange;v=b3;q=0.9, */*;q=0.8] and supported [text/plain, */*, text/plain, */*, application/json, application/*+json, application/json, application/*+json]
+2020-03-17 14:23:21.707 DEBUG 2540 --- [http-nio-8080-exec-1] m.m.a.RequestResponseBodyMethodProcessor : Writing ["Hello world."]
+2020-03-17 14:23:21.717 DEBUG 2540 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2020-03-17 14:23:37.317  INFO 2540 --- [SpringContextShutdownHook] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2020-03-17 14:23:43.416  INFO 2557 --- [main] com.example.demo.DemoApplication         : Starting DemoApplication on sslnoiMac-2.local with PID 2557 (/Users/ssl/Downloads/SpringBoot_App/target/classes started by ssl in /Users/ssl/Downloads/SpringBoot_App)
+2020-03-17 14:23:43.422  INFO 2557 --- [main] com.example.demo.DemoApplication         : No active profile set, falling back to default profiles: default
+2020-03-17 14:23:46.032  INFO 2557 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2020-03-17 14:23:46.046  INFO 2557 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-03-17 14:23:46.046  INFO 2557 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.31]
+2020-03-17 14:23:46.162  INFO 2557 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-03-17 14:23:46.162 DEBUG 2557 --- [main] o.s.web.context.ContextLoader            : Published root WebApplicationContext as ServletContext attribute with name [org.springframework.web.context.WebApplicationContext.ROOT]
+2020-03-17 14:23:46.162  INFO 2557 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 2556 ms
+2020-03-17 14:23:46.491  INFO 2557 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-03-17 14:23:46.509 DEBUG 2557 --- [main] s.w.s.m.m.a.RequestMappingHandlerAdapter : ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2020-03-17 14:23:46.604 DEBUG 2557 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : 3 mappings in 'requestMappingHandlerMapping'
+2020-03-17 14:23:46.659 DEBUG 2557 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+2020-03-17 14:23:46.684 DEBUG 2557 --- [main] .m.m.a.ExceptionHandlerExceptionResolver : ControllerAdvice beans: 0 @ExceptionHandler, 1 ResponseBodyAdvice
+2020-03-17 14:23:46.751  WARN 2557 --- [main] ion$DefaultTemplateResolverConfiguration : Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+2020-03-17 14:23:46.889  INFO 2557 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2020-03-17 14:23:46.895  INFO 2557 --- [main] com.example.demo.DemoApplication         : Started DemoApplication in 4.68 seconds (JVM running for 6.041)
+2020-03-17 14:23:59.543  INFO 2557 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-03-17 14:23:59.546  INFO 2557 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2020-03-17 14:23:59.547 DEBUG 2557 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Detected StandardServletMultipartResolver
+2020-03-17 14:23:59.566 DEBUG 2557 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : enableLoggingRequestDetails='false': request parameters and headers will be masked to prevent unsafe logging of potentially sensitive data
+2020-03-17 14:23:59.567  INFO 2557 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 20 ms
+2020-03-17 14:23:59.582 DEBUG 2557 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : GET "/api/hello", parameters={}
+2020-03-17 14:23:59.589 DEBUG 2557 --- [http-nio-8080-exec-1] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.example.demo.controller.Controller#hello()
+2020-03-17 14:23:59.616 DEBUG 2557 --- [http-nio-8080-exec-1] m.m.a.RequestResponseBodyMethodProcessor : Using 'text/html', given [text/html, application/xhtml+xml, image/webp, image/apng, application/xml;q=0.9, application/signed-exchange;v=b3;q=0.9, */*;q=0.8] and supported [text/plain, */*, text/plain, */*, application/json, application/*+json, application/json, application/*+json]
+2020-03-17 14:23:59.617 DEBUG 2557 --- [http-nio-8080-exec-1] m.m.a.RequestResponseBodyMethodProcessor : Writing ["Hello."]
+2020-03-17 14:23:59.627 DEBUG 2557 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2020-03-17 14:24:28.305  INFO 2557 --- [SpringContextShutdownHook] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2020-03-17 14:24:33.645  INFO 2569 --- [main] com.example.demo.DemoApplication         : Starting DemoApplication on sslnoiMac-2.local with PID 2569 (/Users/ssl/Downloads/SpringBoot_App/target/classes started by ssl in /Users/ssl/Downloads/SpringBoot_App)
+2020-03-17 14:24:33.650  INFO 2569 --- [main] com.example.demo.DemoApplication         : No active profile set, falling back to default profiles: default
+2020-03-17 14:24:35.189  INFO 2569 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2020-03-17 14:24:35.206  INFO 2569 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-03-17 14:24:35.207  INFO 2569 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.31]
+2020-03-17 14:24:35.335  INFO 2569 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-03-17 14:24:35.335 DEBUG 2569 --- [main] o.s.web.context.ContextLoader            : Published root WebApplicationContext as ServletContext attribute with name [org.springframework.web.context.WebApplicationContext.ROOT]
+2020-03-17 14:24:35.335  INFO 2569 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1558 ms
+2020-03-17 14:24:35.554  INFO 2569 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-03-17 14:24:35.563 DEBUG 2569 --- [main] s.w.s.m.m.a.RequestMappingHandlerAdapter : ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2020-03-17 14:24:35.639 DEBUG 2569 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : 3 mappings in 'requestMappingHandlerMapping'
+2020-03-17 14:24:35.672 DEBUG 2569 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+2020-03-17 14:24:35.680 DEBUG 2569 --- [main] .m.m.a.ExceptionHandlerExceptionResolver : ControllerAdvice beans: 0 @ExceptionHandler, 1 ResponseBodyAdvice
+2020-03-17 14:24:35.710  WARN 2569 --- [main] ion$DefaultTemplateResolverConfiguration : Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+2020-03-17 14:24:35.842  INFO 2569 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2020-03-17 14:24:35.849  INFO 2569 --- [main] com.example.demo.DemoApplication         : Started DemoApplication in 3.31 seconds (JVM running for 4.54)
+2020-03-17 14:24:59.521  INFO 2569 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-03-17 14:24:59.522  INFO 2569 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2020-03-17 14:24:59.523 DEBUG 2569 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Detected StandardServletMultipartResolver
+2020-03-17 14:24:59.537 DEBUG 2569 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : enableLoggingRequestDetails='false': request parameters and headers will be masked to prevent unsafe logging of potentially sensitive data
+2020-03-17 14:24:59.538  INFO 2569 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 16 ms
+2020-03-17 14:24:59.561 DEBUG 2569 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : GET "/api/hello", parameters={}
+2020-03-17 14:24:59.566 DEBUG 2569 --- [http-nio-8080-exec-1] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.example.demo.controller.Controller#hello()
+2020-03-17 14:24:59.597 DEBUG 2569 --- [http-nio-8080-exec-1] m.m.a.RequestResponseBodyMethodProcessor : Using 'text/html', given [text/html, application/xhtml+xml, image/webp, image/apng, application/xml;q=0.9, application/signed-exchange;v=b3;q=0.9, */*;q=0.8] and supported [text/plain, */*, text/plain, */*, application/json, application/*+json, application/json, application/*+json]
+2020-03-17 14:24:59.598 DEBUG 2569 --- [http-nio-8080-exec-1] m.m.a.RequestResponseBodyMethodProcessor : Writing ["Hello world."]
+2020-03-17 14:24:59.612 DEBUG 2569 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
